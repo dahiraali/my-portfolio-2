@@ -39,6 +39,38 @@ nav ul li a:hover {
     color:red;
 
 } 
+.l{
+  margin-right: 50px;
+  width: 50%;
+  padding-top: 300px;
+  font-size: x-large;
+}
+.about img{
+  float: right;
+  border-radius: 50%;
+
+}
+
+.card-container{
+  margin-top: 350px;
+  margin-bottom: 100px;
+
+}
+.card-container h1{
+  text-align: center;
+  font-size: xx-large;
+
+}
+
+.contact{
+  margin-top: 50px;
+}
+.m{
+  margin-top: 50px;
+}
+.h{
+  text-align: center;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -48,7 +80,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: horizontal /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
   /* Style the submit button with a specific background color etc */
@@ -74,16 +106,17 @@ input[type=text], select, textarea {
   }
 
 
-  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+   Fixed/sticky icon bar (vertically aligned 50% from the top of the screen)
 .icon-bar {
-    position: fixed;
+    /* position: fixed;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
+
   }
-  
-  /* Style the icon bar links */
+/*   
+  /* Style the icon bar links 
   .icon-bar a {
     display: block;
     text-align: center;
@@ -91,13 +124,13 @@ input[type=text], select, textarea {
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
-  }
+  } */
   
-  /* Style the social media icons with color, if you want */
+  /* Style the social media icons with color, if you want 
   .icon-bar a:hover {
     background-color: #000;
   }
-  
+   
   .facebook {
     background: #3B5998;
     color: white;
@@ -121,6 +154,20 @@ input[type=text], select, textarea {
   .youtube {
     background: #bb0000;
     color: white;
+  }*/
+  .icon{
+    background-color: #45a049;
+    font-size: x-large;
+    text-align: center;
+    padding: 100px;
   }
+  .icon a{
+    border-radius: 50%;
+    margin: 40px;
+
+  }
+
+
+  
   
     
